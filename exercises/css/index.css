@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+h1 {
+    font-family: 'Copperplate', sans-serif;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #8c6cff;
+}

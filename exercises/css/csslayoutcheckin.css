@@ -1,0 +1,106 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: gray;
+}
+
+.wrapper {
+    border: 3px solid black;
+    display: grid;
+    grid-template-rows: 50px 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    min-height: 100vh;
+}
+
+header {
+    background-color: maroon;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    text-align: center;
+    padding: 15px;
+}
+
+.upperleft {
+    background-color: black;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperright {
+    background-color: blue;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    overflow: hidden;
+    position: relative;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.lowerleft {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.lowermid {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: navajowhite;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.image-wrap {
+    overflow: hidden;
+}
+
+img.self {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    float: left;
+    margin-right: 10px;
+    /* align-self: flex-start;
+    z-index: 0; */
+}
+
+
+.lowerright {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+    padding: 10px;
+    /* flex-wrap: wrap;
+    position: relative;
+    z-index: 1; */
+    background-color: maroon;
+}

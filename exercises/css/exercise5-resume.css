@@ -1,0 +1,34 @@
+body {
+    font-family: Arial;
+    background-color: #B7CFDC;
+}
+
+h1 {
+    color: #FFFFFF;
+    background-color: #6AABD2;
+    padding: 20px;
+}
+
+h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+address {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+P {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+hr {
+    border: 1px solid #6AABD2;
+}
